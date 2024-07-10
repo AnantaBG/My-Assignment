@@ -123,3 +123,35 @@ margin-bottom: 32px;
     padding: 32px;
     border-radius: 46px;
     }
+    /* page 3 styles */
+    .section2{
+    margin-top: 159px;
+    }
+    .section3{
+    display: inline-flex;
+    align-content: space-between;
+    justify-content: center;
+    max-height: 300;
+    max-width: 364;
+    margin-top: 48px;
+    }
+    .section3>div>a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    }
+    .html{
+    background: rgba(255, 76, 30, 0.05);
+    margin: 10px 20px;
+    padding: 40px;
+    }
+    .css{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 10px 20px;
+    padding: 40px;
+    }
+    .JavaScript{
+    background-color: rgba(255, 223, 0, 0.05);
+    margin: 10px 20px;
+    padding: 40px;
+    }
