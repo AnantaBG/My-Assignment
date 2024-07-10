@@ -4,7 +4,12 @@
 body {
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.two-bg{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
 /* banner styles */
+/* body/header */
 #banner {
 height: 648px;
 background-image: url(assets/Hero-bg.png);
@@ -44,9 +49,72 @@ margin-bottom: 32px;
     background: rgb(13, 19, 33);
     margin-top: 24px;
 }
-.banner-button>a{
-color: ghostwhite;
-text-decoration: none;
-font-size: 17px;
-font-weight: 550;
-}
+    .banner-button>a{
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+    }
+    /* main styles */
+    main{
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+    /* main/header  */
+    .page1{
+    padding: 80px 97px;
+    margin-top: 74px;
+    }
+    .section1{
+    text-align: center;
+    }
+    .page1-title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .page1-title-description{
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+    /* page 1 banner */
+    /* for banner 1&3 */
+    .button-all{
+        border: 1px solid rgb(13, 19, 33);
+        font-size: 20px;
+        font-weight: 600;
+        padding: 12px 20px;
+        cursor: pointer;
+        
+    }
+    .banner1{
+    display: flex;
+    padding: 48px;
+    margin-top: 32px;
+    justify-content: space-between;
+    }
+    /* for banner 2 */
+    .banner2{
+        display: flex;
+        padding: 48px;
+        margin-top: 32px;
+        justify-content: space-evenly;
+        }
+    .banner1-title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .banner1-description{
+    
+        font-size: 16px;
+        font-weight: 400;
+        }
+    .banner-contents{
+        text-align: left;
+        width: 477px;
+        height: 140px;
+    }
+    .banner-image{
+        width: 240px;
+        height: 240px;
+    }
